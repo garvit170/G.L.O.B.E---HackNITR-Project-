@@ -386,6 +386,14 @@ header
   transition: all 0.3s ease 0s;
 }
 
+.logoimage{
+  width: 50px;
+  height: auto;
+  margin-left: 30px;
+  margin-top: 13px;
+  border-radius: 50%;
+}
+
 .header-area .main-nav {
   box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
   border-radius: 40px;
@@ -659,9 +667,9 @@ welcome
   width: 100%;
 }
 
-.welcome-area .header-text h1 {
+.welcome-area .header-text h1,.welcome-area .header-text h3 {
   font-weight: 500;
-  font-size: 36px;
+  font-size: 28px;
   line-height: 54px;
   letter-spacing: 1.4px;
   margin-bottom: 30px;
