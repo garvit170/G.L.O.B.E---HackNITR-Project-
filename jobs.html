@@ -313,7 +313,7 @@
       
           <!-- Modal content-->
           <div style="padding: 30px; width: 800px;" class="modal-content">
-            <form class="recruiterform">
+            <form class="recruiterform" action="http://localhost:5000/add/job" method="POST">
                 <div class="mb-3">
                   <label for="name" class="form-label">Name of company</label>
                   <input
@@ -321,15 +321,12 @@
                     class="form-control"
                     id="name"
                     placeholder="Comapny's name"
+                    name="title"
                   />
                 </div>
                 <div class="mb-3">
                   <label for="description" class="form-label">Description</label>
-                  <textarea class="form-control" id="description" rows="3"></textarea>
-                </div>
-                <div class="input-group mb-3">
-                  <label class="input-group-text" for="inputGroupFile01">Logo</label>
-                  <input type="file" class="form-control" id="inputGroupFile01">
+                  <textarea class="form-control" id="description" rows="3" name="description"></textarea>
                 </div>
                 <div class="mb-3">
                   <label for="number" class="form-label">Number of openings</label>
@@ -338,9 +335,10 @@
                     class="form-control"
                     id="number"
                     placeholder="Number of openings"
+                    name="openings"
                   />
                 </div>
-                <select class="form-select" aria-label="Default select example">
+                <select class="form-control form-select" aria-label="Default select example" name="role">
                     <option selected>Role you are looking for</option>
                     <option value="projectman">Project Manager</option>
                     <option value="softwareMan">Software Manager</option>
@@ -359,7 +357,7 @@
                   >
                 </div>
                 <br>
-                <button style="margin: auto; width: 100%; background-color: #FF416C; color: #fff;" class="btn  btn-sm">
+                <button type="submit" style="margin: auto; width: 100%; background-color: #FF416C; color: #fff;" class="btn  btn-sm">
                     Save Data
                 </button>
             </form>

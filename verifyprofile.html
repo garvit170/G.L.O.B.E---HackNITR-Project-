@@ -23,20 +23,17 @@
         <div style="height: 600px;" class="container" id="container">
         
         <div class="form-container sign-in-container">
-            <form action="#">
-                <div class="social-container">
-                    
-                </div>
+            <form action="http://localhost:5000/apply" method="POST">
                 <span>Confirm your details</span>
-                <input type="text" placeholder="Name" />
-                <input type="email" placeholder="Email" />
-                <input type="number" placeholder="Age" />
-                <input type="text" placeholder="Contact" />
-                <input type="text" placeholder="You are identified as" />
+                <input type="text" placeholder="Name" name="name" />
+                <input type="email" placeholder="Email" name="email" />
+                <input type="number" placeholder="Age" name="age" />
+                <input type="text" placeholder="Contact" name="contact" />
+                <input type="text" placeholder="You are identified as" name="gender" />
                 <input type="number" placeholder="Years of experience" />
                 <span>Upload your resume</span>
                 <input type="file" placeholder="Your Resume" />
-                <button>Apply</button>
+                <button type="submit">Apply</button>
             </form>
             
         </div>
