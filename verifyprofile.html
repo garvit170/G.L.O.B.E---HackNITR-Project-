@@ -15,43 +15,48 @@
     <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css" />
 
     <link rel="stylesheet" href="assets/css/templatemo-softy-pinko.css" />
+    <link rel="stylesheet" href="/assets/css/verifyprofile.css">
+    <link rel="stylesheet" href="signin.css">
 </head>
 <body>
-    <header class="header-area header-sticky">
-        <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <nav class="main-nav">
-                <!-- ***** Logo Start ***** -->
-                <a href="#">
-                  <img
-                    class="logoimage"
-                    src="assets/images/logo.jpeg"
-                    alt="Softy Pinko"
-                  />
-                </a>
-                <!-- ***** Logo End ***** -->
-                <!-- ***** Menu Start ***** -->
-                <ul class="nav">
-                  <li><a href="/">Home</a></li>
-                  <li><a href="/jobs.html" class="active">Jobs</a></li>
-                  <li><a href="#work-process">Training</a></li>
-                  <li><a href="#testimonials">Scholarships</a></li>
-                  <li><a href="#pricing-plans">Counselling</a></li>
-                  <li><a href="#blog">Blogs</a></li>
-                  <li><a href="#contact-us">Signin</a></li>
-                  <li><a href="#contact-us">Signup</a></li>
-                </ul>
-                <a class="menu-trigger">
-                  <span>Menu</span>
-                </a>
-                <!-- ***** Menu End ***** -->
-              </nav>
-            </div>
-          </div>
+      <section>
+        <div style="height: 600px;" class="container" id="container">
+        
+        <div class="form-container sign-in-container">
+            <form action="#">
+                <div class="social-container">
+                    
+                </div>
+                <span>Confirm your details</span>
+                <input type="text" placeholder="Name" />
+                <input type="email" placeholder="Email" />
+                <input type="number" placeholder="Age" />
+                <input type="text" placeholder="Contact" />
+                <input type="text" placeholder="You are identified as" />
+                <input type="number" placeholder="Years of experience" />
+                <span>Upload your resume</span>
+                <input type="file" placeholder="Your Resume" />
+                <button>Apply</button>
+            </form>
+            
         </div>
-      </header>
-      
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1>Welcome Back!</h1>
+                    <p>To keep connected with us please login with your personal info</p>
+                    <button class="ghost" id="signIn">Sign In</button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h1>Hello, Friend!</h1>
+                    <a href="index.html"><button class="ghost" id="signUp">Back Home</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
      <!-- jQuery -->
      <script src="assets/js/jquery-2.1.0.min.js"></script>
 
