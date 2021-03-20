@@ -332,7 +332,7 @@ a.main-button {
   font-size: 13px;
   border-radius: 20px;
   padding: 12px 20px;
-  background-color: #8261ee;
+  background-color: #ff8686;
   text-transform: uppercase;
   color: #fff;
   letter-spacing: 0.25px;
@@ -353,7 +353,7 @@ button.main-button {
   font-size: 13px;
   border-radius: 20px;
   padding: 12px 20px;
-  background-color: #8261ee;
+  background-color: #ff8686;
   text-transform: uppercase;
   color: #fff;
   letter-spacing: 0.25px;
@@ -1265,7 +1265,7 @@ pricing
   text-align: center;
   padding-top: 20px;
   padding-bottom: 13px;
-  background: #8261ee;
+  background:#ff8686;
   width: 80%;
   margin: auto;
   margin-bottom: 40px;
