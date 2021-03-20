@@ -45,16 +45,9 @@ app.post('/apply', (req, res) => {
         },
         function(err, newUser) {
             if(err){
-                console.log(err);
-                res.send({
-                    error: "Unable to create user"
-                })
+                res.redirect("http://localhost:5500/index.html")
             }else{
-                console.log(newUser)
-                console.log("New user created");
-                res.send({
-                    success: "User Created Successfully"
-                })
+                res.redirect("http://localhost:5500/index.html")
             }
         }
     )
@@ -70,16 +63,9 @@ app.post('/add/job', (req, res) => {
         },
         function(err, newJob) {
             if(err){
-                console.log(err);
-                res.send({
-                    error: "Unable to create user"
-                })
+                res.redirect("http://localhost:5500/index.html")
             }else{
-                console.log(newJob)
-                console.log("New job created");
-                res.send({
-                    success: "Job Created Successfully"
-                })
+                res.redirect("http://localhost:5500/index.html")
             }
         }
     )
@@ -95,16 +81,9 @@ app.post('/add/scholarship', (req, res) => {
         },
         function(err, newScholarship) {
             if(err){
-                console.log(err);
-                res.send({
-                    error: "Unable to create scholarship"
-                })
+                res.redirect("http://localhost:5500/index.html")
             }else{
-                console.log(newScholarship)
-                console.log("New Scholarship created");
-                res.send({
-                    success: "Scholarship Created Successfully"
-                })
+                res.redirect("http://localhost:5500/index.html")
             }
         }
     )
