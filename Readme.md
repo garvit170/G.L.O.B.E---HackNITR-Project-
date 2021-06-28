@@ -6,7 +6,7 @@
 **G.L.O.B.E** is an exculsive Job platform the LGBTQ+ community. 
 
 ## Project Link
-https://rb.gy/3egjzt 
+https://rb.gy/fyvwqr
 
 ## Screenshots
 1. Homepage
